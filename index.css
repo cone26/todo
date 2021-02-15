@@ -1,0 +1,94 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500&display=swap");
+.form {
+  margin-top: 20px;
+  display: none;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right bottom, #317e98, #ebc9b8 60%);
+  font-family: "Raleway", "Noto Serif KR";
+
+  color: white;
+  position: relative;
+}
+
+.button {
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #f6c7b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.showing {
+  display: block;
+}
+.form__input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+  outline-style: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.toDoList {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.btnStyle {
+  background-color: #ebc9b8;
+  width: 27px;
+  height: 27px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 0px 3px;
+  outline-style: none;
+  color: rgb(97, 78, 78);
+  position: absolute;
+  right: 10px;
+  top: 11px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+li {
+  margin-bottom: 10px;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 10px 15px;
+  width: 250px;
+  position: relative;
+}
+li span {
+  padding-right: 100px;
+  margin-top: 7px;
+}
+.title {
+  position: absolute;
+  left: 28%;
+  top: 20%;
+}
+.title span {
+  font-size: 45px;
+  font-weight: 600;
+}
